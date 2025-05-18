@@ -28,6 +28,7 @@ function CountryList() {
             component={Paper}
             mt={2}
             sx={{ width: "100px", height: "fit-content" }}
+            key={index}
           >
             <img
               src={country?.flag}

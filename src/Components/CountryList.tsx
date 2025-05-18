@@ -17,7 +17,7 @@ function CountryList() {
         setCountryList(data);
       }
     } catch (err) {
-      console.error(err);
+      console.error("Error fetching data:", err);
     }
   };
   return (
